@@ -1,5 +1,5 @@
 import unittest
-from .models import movie
+from .models import Movie
 
 Movie = movie.Movie
 
@@ -20,5 +20,3 @@ class MovieTest(unittest.TestCase):
         self.assertTrue(isinstance(self.new_movie, Movie))
 
 
-if __name__ == '__main__':
-    unittest.main()
